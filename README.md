@@ -3,9 +3,9 @@
 Automated ML pipeline to predict the quality of wine based off of its given description.
 
 Requires 
-** Docker
-** Docker Compose 
-to be run 
+* Docker
+* Docker Compose 
+to run the pipeline
 
 ### Building the image:
 Navigate to the main directory and run:
