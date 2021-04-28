@@ -8,7 +8,7 @@ Requires
 to be run 
 
 ### Building the image:
-Navigate to the code director and run:
+Navigate to the main directory and run:
 `./build-task-images.sh 0.1`
 
 ### Executing the Pipeline:
