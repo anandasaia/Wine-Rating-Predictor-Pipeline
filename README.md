@@ -9,11 +9,11 @@ to be run
 
 ### Building the image:
 Navigate to the code director and run:
-'./build-task-images.sh 0.1'
+`./build-task-images.sh 0.1`
 
 ### Executing the Pipeline:
 
-Run: 'docker-compose up orchestrator'
+Run: `docker-compose up orchestrator`
 
 
 
