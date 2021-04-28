@@ -1,0 +1,101 @@
+Attaching to code-challenge-2020_orchestrator_1, code-challenge-2020_luigid_1
+[36mluigid_1        |[0m 2021-04-17 20:19:25,255 luigi[1] INFO: logging configured by default settings
+[36mluigid_1        |[0m 2021-04-17 20:19:25,292 luigi.scheduler[1] INFO: No prior state file exists at /var/lib/luigi-server/state.pickle. Starting with empty state
+[36mluigid_1        |[0m 2021-04-17 20:19:25,349 luigi.server[1] INFO: Scheduler starting up
+[36mluigid_1        |[0m 2021-04-17 20:19:27,996 tornado.access[1] INFO: 200 POST /api/add_task (172.26.0.3) 3.36ms
+[36mluigid_1        |[0m 2021-04-17 20:19:28,023 tornado.access[1] INFO: 200 POST /api/add_task (172.26.0.3) 1.67ms
+[36mluigid_1        |[0m 2021-04-17 20:19:28,047 tornado.access[1] INFO: 200 POST /api/add_task (172.26.0.3) 1.67ms
+[36mluigid_1        |[0m 2021-04-17 20:19:28,052 tornado.access[1] INFO: 200 POST /api/add_task (172.26.0.3) 1.57ms
+[36mluigid_1        |[0m 2021-04-17 20:19:28,058 tornado.access[1] INFO: 200 POST /api/add_worker (172.26.0.3) 1.43ms
+[36mluigid_1        |[0m 2021-04-17 20:19:28,063 tornado.access[1] INFO: 200 POST /api/get_work (172.26.0.3) 1.54ms
+[36mluigid_1        |[0m 2021-04-17 20:19:28,944 tornado.access[1] INFO: 200 POST /api/ping (172.26.0.3) 1.36ms
+[36mluigid_1        |[0m 2021-04-17 20:19:29,948 tornado.access[1] INFO: 200 POST /api/ping (172.26.0.3) 1.32ms
+[36mluigid_1        |[0m 2021-04-17 20:19:30,953 tornado.access[1] INFO: 200 POST /api/ping (172.26.0.3) 1.85ms
+[36mluigid_1        |[0m 2021-04-17 20:19:31,958 tornado.access[1] INFO: 200 POST /api/ping (172.26.0.3) 1.36ms
+[36mluigid_1        |[0m 2021-04-17 20:19:32,963 tornado.access[1] INFO: 200 POST /api/ping (172.26.0.3) 1.32ms
+[36mluigid_1        |[0m 2021-04-17 20:19:33,967 tornado.access[1] INFO: 200 POST /api/ping (172.26.0.3) 1.32ms
+[36mluigid_1        |[0m 2021-04-17 20:19:34,246 tornado.access[1] INFO: 200 POST /api/add_task (172.26.0.3) 1.60ms
+[36mluigid_1        |[0m 2021-04-17 20:19:34,252 tornado.access[1] INFO: 200 POST /api/get_work (172.26.0.3) 1.72ms
+[36mluigid_1        |[0m 2021-04-17 20:19:34,973 tornado.access[1] INFO: 200 POST /api/ping (172.26.0.3) 1.41ms
+[36mluigid_1        |[0m 2021-04-17 20:19:35,978 tornado.access[1] INFO: 200 POST /api/ping (172.26.0.3) 1.54ms
+[36mluigid_1        |[0m 2021-04-17 20:19:36,984 tornado.access[1] INFO: 200 POST /api/ping (172.26.0.3) 1.49ms
+[36mluigid_1        |[0m 2021-04-17 20:19:37,989 tornado.access[1] INFO: 200 POST /api/ping (172.26.0.3) 1.32ms
+[36mluigid_1        |[0m 2021-04-17 20:19:38,994 tornado.access[1] INFO: 200 POST /api/ping (172.26.0.3) 1.39ms
+[36mluigid_1        |[0m 2021-04-17 20:19:39,324 tornado.access[1] INFO: 200 POST /api/add_task (172.26.0.3) 4.96ms
+[36mluigid_1        |[0m 2021-04-17 20:19:39,328 tornado.access[1] INFO: 200 POST /api/get_work (172.26.0.3) 1.48ms
+[36mluigid_1        |[0m 2021-04-17 20:19:39,999 tornado.access[1] INFO: 200 POST /api/ping (172.26.0.3) 1.39ms
+[36mluigid_1        |[0m 2021-04-17 20:19:41,004 tornado.access[1] INFO: 200 POST /api/ping (172.26.0.3) 1.53ms
+[36mluigid_1        |[0m 2021-04-17 20:19:42,011 tornado.access[1] INFO: 200 POST /api/ping (172.26.0.3) 1.48ms
+[36mluigid_1        |[0m 2021-04-17 20:19:43,016 tornado.access[1] INFO: 200 POST /api/ping (172.26.0.3) 1.34ms
+[36mluigid_1        |[0m 2021-04-17 20:19:44,021 tornado.access[1] INFO: 200 POST /api/ping (172.26.0.3) 1.33ms
+[36mluigid_1        |[0m 2021-04-17 20:19:44,132 tornado.access[1] INFO: 200 POST /api/set_task_status_message (172.26.0.3) 1.32ms
+[36mluigid_1        |[0m 2021-04-17 20:19:44,139 tornado.access[1] INFO: 200 POST /api/set_task_status_message (172.26.0.3) 1.39ms
+[36mluigid_1        |[0m 2021-04-17 20:19:44,157 tornado.access[1] INFO: 200 POST /api/set_task_status_message (172.26.0.3) 1.39ms
+[36mluigid_1        |[0m 2021-04-17 20:19:44,166 tornado.access[1] INFO: 200 POST /api/set_task_status_message (172.26.0.3) 1.54ms
+[36mluigid_1        |[0m 2021-04-17 20:19:44,184 tornado.access[1] INFO: 200 POST /api/set_task_status_message (172.26.0.3) 1.59ms
+[36mluigid_1        |[0m 2021-04-17 20:19:44,190 tornado.access[1] INFO: 200 POST /api/set_task_status_message (172.26.0.3) 1.64ms
+[36mluigid_1        |[0m 2021-04-17 20:19:44,202 tornado.access[1] INFO: 200 POST /api/set_task_status_message (172.26.0.3) 1.61ms
+[36mluigid_1        |[0m 2021-04-17 20:19:44,209 tornado.access[1] INFO: 200 POST /api/set_task_status_message (172.26.0.3) 1.42ms
+[36mluigid_1        |[0m 2021-04-17 20:19:44,221 tornado.access[1] INFO: 200 POST /api/set_task_status_message (172.26.0.3) 1.46ms
+[36mluigid_1        |[0m 2021-04-17 20:19:44,228 tornado.access[1] INFO: 200 POST /api/set_task_status_message (172.26.0.3) 1.68ms
+[36mluigid_1        |[0m 2021-04-17 20:19:45,026 tornado.access[1] INFO: 200 POST /api/ping (172.26.0.3) 1.38ms
+[36mluigid_1        |[0m 2021-04-17 20:19:46,031 tornado.access[1] INFO: 200 POST /api/ping (172.26.0.3) 1.78ms
+[36mluigid_1        |[0m 2021-04-17 20:19:46,047 tornado.access[1] INFO: 200 POST /api/add_task (172.26.0.3) 1.50ms
+[36mluigid_1        |[0m 2021-04-17 20:19:46,052 tornado.access[1] INFO: 200 POST /api/get_work (172.26.0.3) 1.41ms
+[33morchestrator_1  |[0m DEBUG: Checking if BuildModel(no_remove_finished=False, train_csv=/usr/share/data/created_csv/transformed.csv, out_dir=/usr/share/data/output/) is complete
+[33morchestrator_1  |[0m DEBUG: Checking if TransformData(no_remove_finished=False, in_csv=/usr/share/data/created_csv/cleaned.csv, out_dir=/usr/share/data/created_csv/, flag=.SUCCESS_TransformData) is complete
+[33morchestrator_1  |[0m INFO: Informed scheduler that task   BuildModel_False__usr_share_data___usr_share_data__0abc49e5a2   has status   PENDING
+[33morchestrator_1  |[0m DEBUG: Checking if CleanData(no_remove_finished=False, in_csv=/usr/share/data/raw/wine_dataset.csv, out_dir=/usr/share/data/created_csv/, flag=.SUCCESS_CleanData) is complete
+[33morchestrator_1  |[0m INFO: Informed scheduler that task   TransformData__SUCCESS_Transfo__usr_share_data__False_03b88bbb80   has status   PENDING
+[33morchestrator_1  |[0m DEBUG: Checking if DownloadData(no_remove_finished=False, fname=wine_dataset, out_dir=/usr/share/data/raw/, url=https://github.com/datarevenue-berlin/code-challenge-2019/releases/download/0.1.0/dataset_sampled.csv) is complete
+[33morchestrator_1  |[0m INFO: Informed scheduler that task   CleanData__SUCCESS_CleanDa__usr_share_data__False_02e45b0ba6   has status   PENDING
+[33morchestrator_1  |[0m INFO: Informed scheduler that task   DownloadData_wine_dataset_False__usr_share_data__79bc385f2e   has status   DONE
+[33morchestrator_1  |[0m INFO: Done scheduling tasks
+[33morchestrator_1  |[0m INFO: Running Worker with 1 processes
+[33morchestrator_1  |[0m DEBUG: Asking scheduler for work...
+[33morchestrator_1  |[0m DEBUG: Pending tasks: 3
+[33morchestrator_1  |[0m INFO: [pid 1] Worker Worker(salt=694513990, workers=1, host=bbc36a978c80, username=root, pid=1) running   CleanData(no_remove_finished=False, in_csv=/usr/share/data/raw/wine_dataset.csv, out_dir=/usr/share/data/created_csv/, flag=.SUCCESS_CleanData)
+[33morchestrator_1  |[0m INFO: [pid 1] Worker Worker(salt=694513990, workers=1, host=bbc36a978c80, username=root, pid=1) done      CleanData(no_remove_finished=False, in_csv=/usr/share/data/raw/wine_dataset.csv, out_dir=/usr/share/data/created_csv/, flag=.SUCCESS_CleanData)
+[33morchestrator_1  |[0m DEBUG: 1 running tasks, waiting for next task to finish
+[33morchestrator_1  |[0m INFO: Informed scheduler that task   CleanData__SUCCESS_CleanDa__usr_share_data__False_02e45b0ba6   has status   DONE
+[33morchestrator_1  |[0m DEBUG: Asking scheduler for work...
+[33morchestrator_1  |[0m DEBUG: Pending tasks: 2
+[33morchestrator_1  |[0m INFO: [pid 1] Worker Worker(salt=694513990, workers=1, host=bbc36a978c80, username=root, pid=1) running   TransformData(no_remove_finished=False, in_csv=/usr/share/data/created_csv/cleaned.csv, out_dir=/usr/share/data/created_csv/, flag=.SUCCESS_TransformData)
+[33morchestrator_1  |[0m INFO: [pid 1] Worker Worker(salt=694513990, workers=1, host=bbc36a978c80, username=root, pid=1) done      TransformData(no_remove_finished=False, in_csv=/usr/share/data/created_csv/cleaned.csv, out_dir=/usr/share/data/created_csv/, flag=.SUCCESS_TransformData)
+[33morchestrator_1  |[0m DEBUG: 1 running tasks, waiting for next task to finish
+[33morchestrator_1  |[0m INFO: Informed scheduler that task   TransformData__SUCCESS_Transfo__usr_share_data__False_03b88bbb80   has status   DONE
+[33morchestrator_1  |[0m DEBUG: Asking scheduler for work...
+[33morchestrator_1  |[0m DEBUG: Pending tasks: 1
+[33morchestrator_1  |[0m INFO: [pid 1] Worker Worker(salt=694513990, workers=1, host=bbc36a978c80, username=root, pid=1) running   BuildModel(no_remove_finished=False, train_csv=/usr/share/data/created_csv/transformed.csv, out_dir=/usr/share/data/output/)
+[33morchestrator_1  |[0m INFO: precision    recall  f1-score   support
+[33morchestrator_1  |[0m INFO: 
+[33morchestrator_1  |[0m INFO: 2       1.00      1.00      1.00         6
+[33morchestrator_1  |[0m INFO: 3       1.00      1.00      1.00         6
+[33morchestrator_1  |[0m INFO: 
+[33morchestrator_1  |[0m INFO: accuracy                           1.00        12
+[33morchestrator_1  |[0m INFO: macro avg       1.00      1.00      1.00        12
+[33morchestrator_1  |[0m INFO: weighted avg       1.00      1.00      1.00        12
+[33morchestrator_1  |[0m INFO: 
+[33morchestrator_1  |[0m INFO: Accuracy: 100.0 %
+[33morchestrator_1  |[0m INFO: [pid 1] Worker Worker(salt=694513990, workers=1, host=bbc36a978c80, username=root, pid=1) done      BuildModel(no_remove_finished=False, train_csv=/usr/share/data/created_csv/transformed.csv, out_dir=/usr/share/data/output/)
+[33morchestrator_1  |[0m DEBUG: 1 running tasks, waiting for next task to finish
+[33morchestrator_1  |[0m INFO: Informed scheduler that task   BuildModel_False__usr_share_data___usr_share_data__0abc49e5a2   has status   DONE
+[33morchestrator_1  |[0m DEBUG: Asking scheduler for work...
+[33morchestrator_1  |[0m DEBUG: Done
+[33morchestrator_1  |[0m DEBUG: There are no more tasks to run at this time
+[33morchestrator_1  |[0m INFO: Worker Worker(salt=694513990, workers=1, host=bbc36a978c80, username=root, pid=1) was stopped. Shutting down Keep-Alive thread
+[33morchestrator_1  |[0m INFO: 
+[33morchestrator_1  |[0m ===== Luigi Execution Summary =====
+[33morchestrator_1  |[0m 
+[33morchestrator_1  |[0m Scheduled 4 tasks of which:
+[33morchestrator_1  |[0m * 1 complete ones were encountered:
+[33morchestrator_1  |[0m     - 1 DownloadData(no_remove_finished=False, fname=wine_dataset, out_dir=/usr/share/data/raw/, url=https://github.com/datarevenue-berlin/code-challenge-2019/releases/download/0.1.0/dataset_sampled.csv)
+[33morchestrator_1  |[0m * 3 ran successfully:
+[33morchestrator_1  |[0m     - 1 BuildModel(no_remove_finished=False, train_csv=/usr/share/data/created_csv/transformed.csv, out_dir=/usr/share/data/output/)
+[33morchestrator_1  |[0m     - 1 CleanData(no_remove_finished=False, in_csv=/usr/share/data/raw/wine_dataset.csv, out_dir=/usr/share/data/created_csv/, flag=.SUCCESS_CleanData)
+[33morchestrator_1  |[0m     - 1 TransformData(no_remove_finished=False, in_csv=/usr/share/data/created_csv/cleaned.csv, out_dir=/usr/share/data/created_csv/, flag=.SUCCESS_TransformData)
+[33morchestrator_1  |[0m 
+[33morchestrator_1  |[0m This progress looks :) because there were no failed tasks or missing dependencies
+[33morchestrator_1  |[0m 
+[33morchestrator_1  |[0m ===== Luigi Execution Summary =====
+[33morchestrator_1  |[0m 
